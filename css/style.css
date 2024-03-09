@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightskyblue;
+}
+
+#general {
+
+    height: 20em;
+    width: 20em;
+
+    border: 0.5em solid black;
+
+    background-color: lightgray;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aux {
+
+    height: 4em;
+    width: 4em;
+
+    background-color: orange;
+
+    display: flex;
+
+    flex-direction: column;
+    border: 0.5em solid black;
+
+}
+
+.little {
+    height: 2em;
+    width: 4em;
+}
+
+.up {
+    background-color: green;
+}
+
+.down {
+    background-color: red;
+}
+
+.aux1 {
+    height: 4em;
+    width: 4em;
+    display: flex;
+    flex-direction: row;
+    border: 0.5em solid rgb(71, 154, 52);
+
+}
+
+.left {
+    background-color: chocolate;
+    height: 4em;
+    width: 2em;
+}
+
+.rigth {
+    background-color: rgb(214, 189, 171);
+    height: 4em;
+    width: 2em
+}
+
+.aux0 {
+    height: 4em;
+    width: 4em;
+    display: flex;
+    flex-direction: row;
+    border: 0.5em solid rgb(71, 154, 52);
+    background-color: red;
+
+}
+
+.firsthalf {
+    background-color: aqua;
+    height: 4em;
+    width: 2em;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.secondhalf {
+    background-color: rgb(11, 55, 55);
+    height: 4em;
+    width: 2em;
+    border-radius: 50%;
+}
